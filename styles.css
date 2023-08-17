@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    :root {
+      --primary-color: #2196f3;
+      --secondary-color: #c6fa0c;
+      --background-color: #21a7e6;
+      --text-color: #db1c1c;
+    }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+    background-color: #221f27;
+}
+
+h1 {
+    text-align: center;
+    font-variant: normal;
+    color: var(--secondary-color);
+    text-decoration-color: var(--secondary-color);
+}
+
+.input-section {
+    text-align: center ;
+    width: fit-content;
+    margin-bottom: 40px;
+    font-size: medium;
+    
+}
+
+
+.label-section {
+    
+    margin-left: 20px;
+    width: fit-content;
+    text-decoration: wavy;
+    font-size: 1.0cm;
+    color: var(--secondary-color);
+}
+
+.div-section {
+    
+    font-size: 18px;
+    width: fit-content;
+    height: 1cm;
+    border-radius: 8px;
+    margin: 0.5cm;
+    margin-left: 200px;
+    
+    
+}
+.div-section:focus{
+    border: 4px solid;
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.preview {
+    width: 20cm;
+    height: auto;
+}
+
+.video-preview {
+    width: 20cm;
+    height: auto;
+    margin-left: 30px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 1.5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 80%;
+    padding: 0.4px;
+}
+
+.button-section {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.button-section button {
+    padding: 12px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.data-container {
+    max-height:auto;
+}
+
+.card {
+    border: 3px solid var(--text-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(34, 179, 171, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url(kl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-header {    
+display:flex; 
+flex-direction: column; 
+align-items:left; 
+background-color: var(--primary-color);
+padding: 10px;
+border-radius: 6px;
+}
+
+.card-title {
+margin: 0;
+}
+
+.card-body {
+margin-top: 10px;
+display:flex; 
+flex-direction: column; 
+align-items:center; 
+}
